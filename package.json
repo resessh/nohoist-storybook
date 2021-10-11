@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "packages/storybook/**"
+    ]
+  },
+  "name": "nohoist-storybook",
+  "version": "1.0.0",
+  "author": "resessh <info@resessh.net>",
+  "license": "MIT",
+  "scripts": {
+    "sb": "yarn workspace storybook dev"
+  }
+}
